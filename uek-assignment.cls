@@ -10,7 +10,7 @@
 
 \newif\ifpdflatex\pdflatexfalse%
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{lib/uekthesis}[2014/16/12 LaTeX class for university assignments]
+\ProvidesClass{lib/uek-assignment}[2014/16/12 LaTeX class for university assignments]
 \DeclareOption{pdflatex}{\pdflatextrue}
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{report}}
 \ProcessOptions\LoadClass[a4paper, 12pt, oneside, openright]{report}
@@ -302,7 +302,7 @@
     }
     \vspace*{15mm}
 
-    \includegraphics[width=10cm]{lib/university-logo}
+    \includegraphics[width=6cm]{lib/university-logo}
     \vspace*{25mm}
 
     {\LARGE\printFullAuthor}
