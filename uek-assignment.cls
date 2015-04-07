@@ -148,7 +148,7 @@
       \renewcommand{\headrulewidth}{0pt}
       \renewcommand{\footrulewidth}{0pt}
     }
-    \fancyfoot[L]{\small{\scshape\@globalFullTitle} \\ Sprawdzian, sesja \@globalSession}
+    \fancyfoot[L]{\small{\scshape\@globalShortTitle}} %\\ Sprawdzian, sesja \@globalSession}
     \fancyfoot[R]{\thepage}
     %\fancyfoot[RO]{\small \@globalShortAuthor\quad\textit{\@globalShortTitle} \thepage}
   }
